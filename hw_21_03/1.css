@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(1,227,127);
+    margin-top: 200px;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 675px;
+    height: 575px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__view {
+    width: 320px;
+    height: 443px;
+    background: radial-gradient(#ebfec6,#99e107);
+    position: relative;
+    top: 45px;
+    left: -45px;
+    border-radius: 10px;
+    box-shadow: 9px 9px 9px 0px rgba(34, 60, 80, 0.2);
+}
+
+.product__view > img {
+    position: relative;
+    top: 20px;
+    left: -65px;
+}
+
+.product__option {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 90px;
+    width: 320px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.product__option img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 3px;
+    align-self: center;
+}
+
+
+.discription {
+
+}
+
+h3 {
+    font-size: 21px;
+    color: rgb(76,76,76);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.discription {
+    margin-top: 30px;
+}
+
+.discription__price {
+    font-size: 48px;
+    color: rgb(255,63,64);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.discription__value {
+    font-style: 13px;
+    color: rgb(255,63,64);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(180,181,181);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.discription__option img {
+    width: 40px;
+}
+
+.discription__option img:first-child {
+    border: 1px solid rgb(189, 189, 189);
+}
+
+li {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(101, 101, 101);
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 50px;
+    background-color: rgb(255,63,64);
+}

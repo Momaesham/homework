@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(207, 207, 207);
+    font-family: 'Indie Flower', cursive;  
+    width: 1440px; 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.product__status {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 300px;
+}
+
+.product__img {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 400px;
+    width: 300px;
+}
+
+.img__shoes {
+    width: 300px;
+}
+
+.product__name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.stars img {
+    width: 18px;
+    height: 18px;
+}
+
+p {
+    color: rgb(101, 101, 101);
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50,231,24);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.button img {
+    width: 25px;
+    
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-size: 13px;
+}
+
+ul li:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+ul li:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+ul {
+    padding: 0;
+    max-width: max-content;
+}
+
+li {
+    list-style: none;
+    min-width: 200px;
+}
+
+a {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li ul li a {
+    padding: 10px 0px 10px 20px;
+}
+
+ul li{
+    border-bottom: 1px solid #fff;
+    background-color: rgb(50, 242, 252);
+}
+
+.img {
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.material-icons {
+    color: #fff;
+    font-size: 0;
+}
+
+ul li ul{
+    /*display: none;*/
+    height: 0;
+    opacity: 0;
+    /*transition: all 1s;*/
+    transition: height 1s, opacity 1s .1s;
+}
+
+ul li:hover ul{
+    /*display: block;*/
+    opacity: 1;
+    height: 107px;
+    /*transition: all 1s;*/
+    transition: height 1s, opacity 1s .1s;
+}
+
+ul li ul li{
+    border-radius: 0;
+    background-color: rgb(45, 45, 45);
+    border: none;
+}
+
+ul li ul li:first-child, ul li ul li:last-child {
+    border-radius: 0;
+}
+
+ul li ul li a {
+    transition: border-left 0.4s;
+}
+
+ul li ul li a:hover {
+    padding-left: 15px;
+    border-left: 5px solid rgb(50, 242, 252);
+}   
+
+ul li ul li::before{
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: #1b1b1b;
+    transform: rotate(45deg);
+    z-index: 1;  /*Изменить на -1 и посмотреть, почему так*/
+    background-color: rgb(50, 242, 252);
+    }

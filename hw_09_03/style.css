@@ -1,0 +1,24 @@
+table, tr, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+caption {
+    text-align: left;
+}
+
+table {
+    text-align: center;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+
+.first th {
+    background-color: rgb(183, 183, 183);
+    width: 150px;
+}
+
+.right {
+    text-align: right;
+}

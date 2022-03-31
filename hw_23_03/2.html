@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./2.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <section>
+                <label for="name">1. Ваше имя:</label>
+                <input type="text" name="" id="name">
+            </section>
+            <section>
+                <label for="password">2. Пароль:</label>
+                <input type="password" name="" id="password">
+            </section>
+            <section>
+                <label for="gender">3. Пол:</label>
+                <div class="gender">
+                    <label for="male">мужской</label>
+                    <input type="radio" name="" id="male">
+                </div>
+                <div class="genders">
+                    <label for="female">женский</label>
+                    <input type="radio" name="" id="female">
+                </div>
+            </section>
+            <section>
+                <label for="hobby">4. Ваши увлечения:</label>
+                <div class="hobbys">
+                    <label for="hobbys__music">Музыка</label>
+                    <input type="checkbox" name="" id="hobbys__music">
+                </div>
+                <div class="hobbys">
+                    <label for="hobbys__video">Видео</label>
+                    <input type="checkbox" name="" id="hobbys__video">
+                </div>
+                <div class="hobbys">
+                    <label for="hobbys__paint">Рисование</label>
+                    <input type="checkbox" name="" id="hobbys__paint">
+                </div>
+            </section>
+            <section>
+                <label for="city__select">5. Ваш город:</label>
+                <select name="" id="city__select">
+                    <option value="petersbutg">Санкт-Петербург</option>
+                    <option value="samara">Самара</option>
+                    <option value="perm">Пермь</option>
+                    <option value="novosibirsk">Новосибирск</option>
+                </select>
+            </section>
+            <section>
+                <label for="about">6. Кратко о себе</label>
+                <textarea placeholder="краткая информация о ваших увлечениях" name="" id="about" cols="34" rows="3"></textarea>
+            </section>
+            <section>
+                <label for="avater">7. Аватар</label>
+                <input type="file" name="" id="avatar">
+            </section>
+
+            <div class="bottoms">
+                <div class="bottom">
+                    <button type="reset">Сброс</button>
+                </div>
+                <div class="bottom">
+                    <button type="submit">Подтверждаю</button>
+                </div>
+                <div class="bottom">
+                    <button>Кликни по мне просто так</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

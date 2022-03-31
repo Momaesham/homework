@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(207, 207, 207); 
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.product__img {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0px 2px 4px 0px rgba(34, 60, 80, 0.2);
+}
+
+.img__shoes {
+    width: 300px;
+}
+
+.new {
+    position: absolute;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    right: 0;
+    top: 0;
+}
+
+.product__status {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.sail {
+    color: rgb(0, 129, 71);
+    margin-right: 5px;
+}
+
+.old_price {
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.stars {
+    display: flex;
+    margin-right: 15px;
+}
+
+.product__review {
+    display: flex;
+}
+
+.product__review img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.review {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.review__span {
+    color: rgb(255, 141, 47);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 129, 71);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.button img {
+    height: 20px;
+    margin-right: 3px;
+}
